@@ -19,7 +19,7 @@ steps:
     resourceGroupName: 'rg-farminvest'
     location: 'South Africa North'
     templateLocation: 'URL of the file'
-    csmFileLink: 'https://raw.githubusercontent.com/bennsid/AzureRmPipeline-repo/main/create_web_app/azuredeploy.json'
+    csmFileLink: 'https://raw.githubusercontent.com/bennsid/AzureRmPipeline-repo/main/create_web_app/azuredeploy.json?token=GHSAT0AAAAAACD2HCJLYAXBTYHFNLIYZZNCZEHJRDQ'
     overrideParameters: '-projectName FarmInvest'
     deploymentMode: 'Incremental'
     deploymentName: 'DeployPipelineTemplate'
